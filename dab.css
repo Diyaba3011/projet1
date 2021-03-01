@@ -1,0 +1,99 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+	list-style: none;
+}
+.nav-barre{
+	width: 100%;
+	position: fixed;
+	background-color:crimson;
+	
+}
+.nav-barre .hover{
+	background-color: red;
+}
+.nav-barre .max-div{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 10px;
+}
+
+.menu{
+	padding-top: 10px;
+}
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	list-style: none;
+
+}
+.sous{
+	position: absolute;
+	display: none;
+}
+.menu li:hover .sous{
+	display: block;
+
+
+}
+.sous li{
+	border: 2px solid #bdc3c7;
+	text-align: center;
+	width: 100%;
+	background-color: #e74c3c;
+}
+.home{
+	display: flex;
+	width: 100%;
+	margin-top: 5px;
+
+	
+	
+
+}
+.child-left{
+	width: 25%; 
+	height: 500px;
+	background-color: purple; 
+	margin-left: 10px;                  
+}
+.child-center{
+	width: 50%; 
+	background-color: blue; 
+	height: 480px; 
+	margin: auto 10px; 
+	display: flex; 
+	padding: 10px;                
+}
+.child-right{
+	width: 25%;
+	background-color: pink;  
+	height: 500px; 
+	margin-right:10px;                   
+}
+.info1{
+	width: 50%;
+	height: 480px;
+	background-color: black;
+	margin-right: 10px;
+}
+.info2{
+	width: 50%;
+	height: 480px;
+	background-color: blue;
+}
+.info21{
+	width: 100%;
+	background-color: gray;
+	margin: 10px auto;
+	height:30.4%;
+}
